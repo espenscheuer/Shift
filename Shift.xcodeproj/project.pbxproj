@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8828CCD2BCAE92200819989 /* ShiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8828CCC2BCAE92200819989 /* ShiftApp.swift */; };
+		A8828CCF2BCAE92200819989 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8828CCE2BCAE92200819989 /* ContentView.swift */; };
+		A8828CD12BCAE92300819989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8828CD02BCAE92300819989 /* Assets.xcassets */; };
+		A8828CD42BCAE92300819989 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8828CD32BCAE92300819989 /* Preview Assets.xcassets */; };
+		A8828CDE2BCAE92300819989 /* ShiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8828CDD2BCAE92300819989 /* ShiftTests.swift */; };
+		A8828CE82BCAE92300819989 /* ShiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8828CE72BCAE92300819989 /* ShiftUITests.swift */; };
+		A8828CEA2BCAE92300819989 /* ShiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8828CE92BCAE92300819989 /* ShiftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8828CDA2BCAE92300819989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8828CC12BCAE92200819989 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8828CC82BCAE92200819989;
+			remoteInfo = Shift;
+		};
+		A8828CE42BCAE92300819989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8828CC12BCAE92200819989 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8828CC82BCAE92200819989;
+			remoteInfo = Shift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8828CC92BCAE92200819989 /* Shift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8828CCC2BCAE92200819989 /* ShiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftApp.swift; sourceTree = "<group>"; };
+		A8828CCE2BCAE92200819989 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A8828CD02BCAE92300819989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8828CD32BCAE92300819989 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8828CD92BCAE92300819989 /* ShiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8828CDD2BCAE92300819989 /* ShiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftTests.swift; sourceTree = "<group>"; };
+		A8828CE32BCAE92300819989 /* ShiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8828CE72BCAE92300819989 /* ShiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftUITests.swift; sourceTree = "<group>"; };
+		A8828CE92BCAE92300819989 /* ShiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8828CC62BCAE92200819989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8828CD62BCAE92300819989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8828CE02BCAE92300819989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8828CC02BCAE92200819989 = {
+			isa = PBXGroup;
+			children = (
+				A8828CCB2BCAE92200819989 /* Shift */,
+				A8828CDC2BCAE92300819989 /* ShiftTests */,
+				A8828CE62BCAE92300819989 /* ShiftUITests */,
+				A8828CCA2BCAE92200819989 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8828CCA2BCAE92200819989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8828CC92BCAE92200819989 /* Shift.app */,
+				A8828CD92BCAE92300819989 /* ShiftTests.xctest */,
+				A8828CE32BCAE92300819989 /* ShiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8828CCB2BCAE92200819989 /* Shift */ = {
+			isa = PBXGroup;
+			children = (
+				A8828CCC2BCAE92200819989 /* ShiftApp.swift */,
+				A8828CCE2BCAE92200819989 /* ContentView.swift */,
+				A8828CD02BCAE92300819989 /* Assets.xcassets */,
+				A8828CD22BCAE92300819989 /* Preview Content */,
+			);
+			path = Shift;
+			sourceTree = "<group>";
+		};
+		A8828CD22BCAE92300819989 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A8828CD32BCAE92300819989 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8828CDC2BCAE92300819989 /* ShiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8828CDD2BCAE92300819989 /* ShiftTests.swift */,
+			);
+			path = ShiftTests;
+			sourceTree = "<group>";
+		};
+		A8828CE62BCAE92300819989 /* ShiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8828CE72BCAE92300819989 /* ShiftUITests.swift */,
+				A8828CE92BCAE92300819989 /* ShiftUITestsLaunchTests.swift */,
+			);
+			path = ShiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8828CC82BCAE92200819989 /* Shift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8828CED2BCAE92300819989 /* Build configuration list for PBXNativeTarget "Shift" */;
+			buildPhases = (
+				A8828CC52BCAE92200819989 /* Sources */,
+				A8828CC62BCAE92200819989 /* Frameworks */,
+				A8828CC72BCAE92200819989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shift;
+			productName = Shift;
+			productReference = A8828CC92BCAE92200819989 /* Shift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8828CD82BCAE92300819989 /* ShiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8828CF02BCAE92300819989 /* Build configuration list for PBXNativeTarget "ShiftTests" */;
+			buildPhases = (
+				A8828CD52BCAE92300819989 /* Sources */,
+				A8828CD62BCAE92300819989 /* Frameworks */,
+				A8828CD72BCAE92300819989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8828CDB2BCAE92300819989 /* PBXTargetDependency */,
+			);
+			name = ShiftTests;
+			productName = ShiftTests;
+			productReference = A8828CD92BCAE92300819989 /* ShiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8828CE22BCAE92300819989 /* ShiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8828CF32BCAE92300819989 /* Build configuration list for PBXNativeTarget "ShiftUITests" */;
+			buildPhases = (
+				A8828CDF2BCAE92300819989 /* Sources */,
+				A8828CE02BCAE92300819989 /* Frameworks */,
+				A8828CE12BCAE92300819989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8828CE52BCAE92300819989 /* PBXTargetDependency */,
+			);
+			name = ShiftUITests;
+			productName = ShiftUITests;
+			productReference = A8828CE32BCAE92300819989 /* ShiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8828CC12BCAE92200819989 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A8828CC82BCAE92200819989 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A8828CD82BCAE92300819989 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A8828CC82BCAE92200819989;
+					};
+					A8828CE22BCAE92300819989 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A8828CC82BCAE92200819989;
+					};
+				};
+			};
+			buildConfigurationList = A8828CC42BCAE92200819989 /* Build configuration list for PBXProject "Shift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8828CC02BCAE92200819989;
+			productRefGroup = A8828CCA2BCAE92200819989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8828CC82BCAE92200819989 /* Shift */,
+				A8828CD82BCAE92300819989 /* ShiftTests */,
+				A8828CE22BCAE92300819989 /* ShiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8828CC72BCAE92200819989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8828CD42BCAE92300819989 /* Preview Assets.xcassets in Resources */,
+				A8828CD12BCAE92300819989 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8828CD72BCAE92300819989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8828CE12BCAE92300819989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8828CC52BCAE92200819989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8828CCF2BCAE92200819989 /* ContentView.swift in Sources */,
+				A8828CCD2BCAE92200819989 /* ShiftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8828CD52BCAE92300819989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8828CDE2BCAE92300819989 /* ShiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8828CDF2BCAE92300819989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8828CE82BCAE92300819989 /* ShiftUITests.swift in Sources */,
+				A8828CEA2BCAE92300819989 /* ShiftUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8828CDB2BCAE92300819989 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8828CC82BCAE92200819989 /* Shift */;
+			targetProxy = A8828CDA2BCAE92300819989 /* PBXContainerItemProxy */;
+		};
+		A8828CE52BCAE92300819989 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8828CC82BCAE92200819989 /* Shift */;
+			targetProxy = A8828CE42BCAE92300819989 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A8828CEB2BCAE92300819989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8828CEC2BCAE92300819989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8828CEE2BCAE92300819989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Espen-Scheuer.Shift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8828CEF2BCAE92300819989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Espen-Scheuer.Shift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8828CF12BCAE92300819989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Espen-Scheuer.ShiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shift";
+			};
+			name = Debug;
+		};
+		A8828CF22BCAE92300819989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Espen-Scheuer.ShiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shift";
+			};
+			name = Release;
+		};
+		A8828CF42BCAE92300819989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Espen-Scheuer.ShiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shift;
+			};
+			name = Debug;
+		};
+		A8828CF52BCAE92300819989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Espen-Scheuer.ShiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8828CC42BCAE92200819989 /* Build configuration list for PBXProject "Shift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8828CEB2BCAE92300819989 /* Debug */,
+				A8828CEC2BCAE92300819989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8828CED2BCAE92300819989 /* Build configuration list for PBXNativeTarget "Shift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8828CEE2BCAE92300819989 /* Debug */,
+				A8828CEF2BCAE92300819989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8828CF02BCAE92300819989 /* Build configuration list for PBXNativeTarget "ShiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8828CF12BCAE92300819989 /* Debug */,
+				A8828CF22BCAE92300819989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8828CF32BCAE92300819989 /* Build configuration list for PBXNativeTarget "ShiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8828CF42BCAE92300819989 /* Debug */,
+				A8828CF52BCAE92300819989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8828CC12BCAE92200819989 /* Project object */;
+}
