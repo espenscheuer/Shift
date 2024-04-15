@@ -14,6 +14,11 @@
 		A8828CDE2BCAE92300819989 /* ShiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8828CDD2BCAE92300819989 /* ShiftTests.swift */; };
 		A8828CE82BCAE92300819989 /* ShiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8828CE72BCAE92300819989 /* ShiftUITests.swift */; };
 		A8828CEA2BCAE92300819989 /* ShiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8828CE92BCAE92300819989 /* ShiftUITestsLaunchTests.swift */; };
+		A8B086C42BCCDA7C00207666 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B086C32BCCDA7C00207666 /* SettingsView.swift */; };
+		A8B086C52BCCDCB400207666 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B086C32BCCDA7C00207666 /* SettingsView.swift */; };
+		A8B086C62BCCDCB500207666 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B086C32BCCDA7C00207666 /* SettingsView.swift */; };
+		A8B086CA2BCCDF2C00207666 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B086C92BCCDF2C00207666 /* CalendarView.swift */; };
+		A8B086CE2BCCED9700207666 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B086CD2BCCED9700207666 /* AppSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A82D17E32BCAB99C0095D9CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A8828CC92BCAE92200819989 /* Shift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8828CCC2BCAE92200819989 /* ShiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftApp.swift; sourceTree = "<group>"; };
 		A8828CCE2BCAE92200819989 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,10 @@
 		A8828CE32BCAE92300819989 /* ShiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8828CE72BCAE92300819989 /* ShiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftUITests.swift; sourceTree = "<group>"; };
 		A8828CE92BCAE92300819989 /* ShiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A8828CF62BCB31AD00819989 /* Shift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shift.entitlements; sourceTree = "<group>"; };
+		A8B086C32BCCDA7C00207666 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A8B086C92BCCDF2C00207666 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A8B086CD2BCCED9700207666 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				A8828CCB2BCAE92200819989 /* Shift */,
-				A8828CDC2BCAE92300819989 /* ShiftTests */,
 				A8828CE62BCAE92300819989 /* ShiftUITests */,
 				A8828CCA2BCAE92200819989 /* Products */,
 			);
@@ -94,8 +103,14 @@
 		A8828CCB2BCAE92200819989 /* Shift */ = {
 			isa = PBXGroup;
 			children = (
+				A82D17E32BCAB99C0095D9CE /* Info.plist */,
+				A8828CF62BCB31AD00819989 /* Shift.entitlements */,
 				A8828CCC2BCAE92200819989 /* ShiftApp.swift */,
 				A8828CCE2BCAE92200819989 /* ContentView.swift */,
+				A8B086C32BCCDA7C00207666 /* SettingsView.swift */,
+				A8B086CD2BCCED9700207666 /* AppSettings.swift */,
+				A8B086C92BCCDF2C00207666 /* CalendarView.swift */,
+				A8828CDC2BCAE92300819989 /* ShiftTests */,
 				A8828CD02BCAE92300819989 /* Assets.xcassets */,
 				A8828CD22BCAE92300819989 /* Preview Content */,
 			);
@@ -257,7 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8B086C42BCCDA7C00207666 /* SettingsView.swift in Sources */,
 				A8828CCF2BCAE92200819989 /* ContentView.swift in Sources */,
+				A8B086CA2BCCDF2C00207666 /* CalendarView.swift in Sources */,
+				A8B086CE2BCCED9700207666 /* AppSettings.swift in Sources */,
 				A8828CCD2BCAE92200819989 /* ShiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8828CDE2BCAE92300819989 /* ShiftTests.swift in Sources */,
+				A8B086C52BCCDCB400207666 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8B086C62BCCDCB500207666 /* SettingsView.swift in Sources */,
 				A8828CE82BCAE92300819989 /* ShiftUITests.swift in Sources */,
 				A8828CEA2BCAE92300819989 /* ShiftUITestsLaunchTests.swift in Sources */,
 			);
@@ -419,11 +439,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shift/Shift.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Shift/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shift/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Shift;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,11 +471,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Shift/Shift.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Shift/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shift/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Shift;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
